@@ -23,6 +23,36 @@ Our goal is to provide you with highly personalized recommendations, allowing yo
 - **Enhanced Enjoyment:** Seamlessly blend your hobbies and leisure activities for a richer entertainment experience.
 - **Discover New Favorites:** Find hidden gems and explore new favorites that align with your unique tastes.
 - **Data-Driven Living:** Make informed decisions in your leisure time, ensuring every choice is a personalized delight.
+
+## Project Timeline
+
+### **Project Kickoff and Setup**
+[X] **Week 1:**
+  - Project ideation and definition.
+  - Set up the GitHub repository.
+  - Invite collaborators to the repository.
+[X] **Week 2:**
+  - Collaborators familiarize themselves with the project goals.
+  - Research and decide on the tech stack (Python, scikit-learn, PyTorch, Plotly, Dash).
+[X] **Week 3:**
+  - Initial documentation and README creation.
+  - Collaborators start learning Python basics and Git/GitHub.
+
+### **Data Collection and Preprocessing**
+- **Week 1-2:**
+  - Gather sample data for songs, movies, and books.
+  - Begin data preprocessing and cleaning.
+  - Collaborators discuss and plan the data schema for cross-domain recommendations.
+ 
+### **Develop Recommendation Models**
+- **Week 1-2:**
+  - Explore libraries and OSS that can build recommendation systems for intra-domain recommendations.
+  - Create a separate branch and for books, movies or songs.
+  - Use these recommendation systems to make same-domain recommendations.
+- **Week 3-4:**
+  - Apply these skills and tools to build cross-domain recommendations.
+  - Share your systems!
+    
 ---
 
 Let's embark on this data-driven journey together! Join Data Diary and unlock the connections between your favorite movies, songs, and books. 📖🎵🎬✨
