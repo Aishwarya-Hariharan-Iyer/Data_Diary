@@ -2,6 +2,8 @@
 
 Welcome to Data Diary, where we explore the exciting world of cross-domain recommendations to enhance your leisure and entertainment experience! 
 
+**_Hop over to the instructions branch for sprint details! _**
+
 ## Project Overview
 
 Have you ever wondered if your love for certain books, movies, or songs could reveal your true genre preferences? Data Diary is here to find out! This project goes beyond conventional recommendations and aims to predict:
@@ -40,7 +42,7 @@ Our goal is to provide you with highly personalized recommendations, allowing yo
   - Initial documentation and README creation.
   - Collaborators start learning Python basics and Git/GitHub.
 
-### **Data Collection and Preprocessing**
+### **Data Collection and Preprocessing [INSTRUCTIONS OUT!]**
   - Gather sample data for songs, movies, and books.
   - Begin data preprocessing and cleaning.
   - Collaborators discuss and plan the data schema for cross-domain recommendations.
