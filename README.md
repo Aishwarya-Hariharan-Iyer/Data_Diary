@@ -2,7 +2,7 @@
 
 Welcome to Data Diary, where we explore the exciting world of cross-domain recommendations to enhance your leisure and entertainment experience! 
 
-**_Hop over to the instructions branch for sprint details! _**
+**Hop over to the instructions branch for sprint details!**
 
 ## Project Overview
 
