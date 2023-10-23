@@ -3,17 +3,14 @@ from dash import dcc
 import dash_core_components as dcc
 import dash_bootstrap_components as dbc
 import pandas as pd
-
-df_movies = pd.read_csv('assets/movies.csv')
-df_ratings = pd.read_csv('assets/ratings.csv')
-merged_df = pd.merge(df_movies, df_ratings, on='movieId')
+from constants import DATA
 
 data_table = dash_table.DataTable(
     id='datatable',
     columns=[
-        {"name": i, "id": i, "selectable": True} for i in merged_df.columns
+        {"name": i, "id": i, "selectable": True} for i in DATA.columns
         ],
-    data=merged_df.to_dict('records'),
+    data=DATA.to_dict('records'),
     page_action="native",
     page_current= 0,
     page_size= 10,

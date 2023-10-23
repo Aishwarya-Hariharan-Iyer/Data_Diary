@@ -61,7 +61,12 @@ Let's embark on this data-driven journey together! Join Data Diary and unlock th
 1. Intro to Dash and Plotly - 1: https://drive.google.com/file/d/1ZvMiQrVFMPkIy9KL5NbN14Is3dvYDqqZ/view?usp=share_link
 2. Intro to Dash and Plotly - 2: https://drive.google.com/file/d/1J8ng6APJAysBzVnugZvWCeoiPu1ertnC/view?usp=share_link
 3. Intro to Codebase and using pre-existing models: 
+4. AutoViz Repository: https://github.com/AutoViML/AutoViz
+5. SweetViz Repository: https://github.com/fbdesignpro/sweetviz
+6. dtale Repository: https://github.com/man-group/dtale
 
 #### UPCOMING:
  - Creating your first machine learning model (Data Preprocessing to Training to Prediction) - Same Domain
  - Creating croos-domain model systems
+
+
