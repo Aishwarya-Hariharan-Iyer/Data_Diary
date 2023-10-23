@@ -1,6 +1,5 @@
 from dash import html, Output, Input, State, callback, dash_table
 from dash import dcc
-import dash_core_components as dcc
 import dash_bootstrap_components as dbc
 import pandas as pd
 from constants import DATA

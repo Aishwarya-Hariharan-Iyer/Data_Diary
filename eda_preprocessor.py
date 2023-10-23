@@ -1,13 +1,14 @@
 from dash import html, Output, Input, State, callback, dash_table
 from dash import dcc
-import dash_core_components as dcc
 import dash_bootstrap_components as dbc
 import pandas as pd
 import plotly.express as px
 from constants import DATA
 
 # Explore Data
-gen_desc = DATA.describe()
+DATA['genres'] = DATA['genres'].str.split('|')
+data_explode = DATA.explode('genres')
+gen_desc = data_explode.describe()
 
 summary_table = dash_table.DataTable(
     id='datatable-summary',
@@ -27,7 +28,10 @@ html.Div(id="report-summary", children=[
 
 
 # Generate Visualisations
+fig_h = px.histogram(data_explode, x='genres')
+distribution_plot = dcc.Graph(id='hist-plot', figure=fig_h)
+
+fig_b = px.box(data_explode, x='genres', y='rating')
+box_plot = dcc.Graph(id='box-plot', figure=fig_b)
 
 
-
-# Data Preprocessing
