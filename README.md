@@ -55,3 +55,13 @@ Our goal is to provide you with highly personalized recommendations, allowing yo
 ---
 
 Let's embark on this data-driven journey together! Join Data Diary and unlock the connections between your favorite movies, songs, and books. 📖🎵🎬✨
+
+### **Resources**
+
+1. Intro to Dash and Plotly - 1: https://drive.google.com/file/d/1ZvMiQrVFMPkIy9KL5NbN14Is3dvYDqqZ/view?usp=share_link
+2. Intro to Dash and Plotly - 2: https://drive.google.com/file/d/1J8ng6APJAysBzVnugZvWCeoiPu1ertnC/view?usp=share_link
+3. Intro to Codebase and using pre-existing models: 
+
+#### UPCOMING:
+ - Creating your first machine learning model (Data Preprocessing to Training to Prediction) - Same Domain
+ - Creating croos-domain model systems
